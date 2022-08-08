@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Download &amp; Run" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="stm32f303k8-rust-example" TARGET_NAME="Cargo Build" CONFIG_NAME="Cargo Build" version="1">
+    <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/st_nucleo_f3.cfg" reset-type="RUN" download-type="UPDATED_ONLY">
+      <debugger kind="GDB" isBundled="true" />
+    </openocd>
+    <method v="2" />
+  </configuration>
+</component>
